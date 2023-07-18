@@ -2,6 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './Sidebar.css'
+import Footer from './Footer'
 const Sidebar = () => {
   return (
     <div className='container-fluid'>
@@ -65,7 +66,9 @@ const Sidebar = () => {
 
         </div>
       </div>
+      <Footer/>
     </div>
+
   )
 }
 

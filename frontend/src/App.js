@@ -33,6 +33,7 @@ function App() {
           <Route path='/searchBar' element={<Search_bar/>}/>
           <Route path='/sidebar' element={<Sidebar/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
